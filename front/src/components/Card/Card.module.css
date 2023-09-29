@@ -1,0 +1,51 @@
+.cardContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(175, 101, 197, 0.589);
+    border: 1px solid #a51586;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .cardContainer img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .cardContainer h2 {
+    font-size: 15px;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.781);
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .cardContainer h2:hover {
+    color: rgba(236, 16, 71, 0.863); 
+    transform: scale(1.1);
+}
+  
+  .cardContainer button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .cardContainer button:hover {
+    color: rgba(236, 16, 71, 0.863); 
+    transform: scale(1.1);
+}
+  
+.NavLink {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,100 @@
+.registerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; /* Cambié "vi" a "vw" para indicar viewport width */
+  background-image: url('../../../public/create-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  justify-content: center;
+}
+
+.form input {
+  font-size: 20px;
+  margin: 5px;
+  color: rgba(14, 3, 1, 0.781);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(212, 201, 201, 0.5);
+  width: 250px; 
+  padding: 8px;
+  box-sizing: border-box;
+ border-style: groove;
+ border-color: rgba(226, 43, 165, 0.733);
+ border-radius: 5px;
+}
+
+.form .error {
+  color: rgba(238, 20, 129, 0.733);
+}
+
+.form .success {
+  border: 1px solid rgba(12, 214, 12, 0.849);
+}
+
+.form .buttonDisabled {
+  color: antiquewhite;
+}
+
+.form .buttonEnabled {
+  background-color: #00ff6a5b;
+    color: white;
+}
+
+.form .buttonEnabled:hover {
+  background-color: #2ecc71;
+}
+
+.form button {
+  
+    border: none;
+    padding: 7px 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+  text-transform: uppercase;
+  
+}
+
+.form .login {
+  background-color: #00ff6a5b;
+    color: white;
+}
+
+.form .login:hover {
+  background-color: #2ecc71;
+}
+
+
+.form span {
+  font-size: 13px;
+  color: rgba(14, 3, 1, 0.781);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+  width: 100%;
+}
+
+.form h2 {
+  font-size: 20px;
+  color: rgba(32, 14, 3, 0.945);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(177, 175, 175, 0.5);
+  width: 100%;
+}
